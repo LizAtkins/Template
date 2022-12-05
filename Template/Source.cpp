@@ -13,7 +13,12 @@ double half(T temp) {
 }
 
 int main() {
+	double a;
+	float b;
+	int c;
 
+	cout << setprecision(5) << showpoint;
+	cout << half(a) << endl << half(b) << endl << ceil(half(c)) << endl;
 
 
 	cout << endl << endl;
