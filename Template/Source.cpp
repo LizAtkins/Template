@@ -7,7 +7,10 @@
 
 using namespace std;
 
-
+template <typename T>
+double half(T temp) {
+	return temp / 2.0
+}
 
 int main() {
 
@@ -17,4 +20,5 @@ int main() {
 	system("pause");
 	return 0;
 }
+
 
